@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 to 25 Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-container">
+    <h1>1 to 25</h1>
+    <p class="description">1부터 25까지 순서대로 눌러보세요.</p>
+    <p class="timer">
+      Time: <span id="timer">0.00</span>s
+    </p>
+    <button id="resetButton" class="reset-button">Reset</button>
+
+<section class="record-section">
+  <h2>기록 TOP 5</h2>
+  <ol id="recordList"></ol>
+  <button id="clearRecordsButton" class="clear-records-button">기록 초기화</button>
+</section>
+
+<div class="game-board" id="gameBoard">
+</div>
+    <div class="game-board" id="gameBoard">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
